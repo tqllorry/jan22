@@ -51,6 +51,7 @@ public class MemberUtil {
             return cache.get(id);
         }
 
+        //aaaa
         try {
             ps = conn.prepareStatement(sql1);
             ps.setString(1, id);
